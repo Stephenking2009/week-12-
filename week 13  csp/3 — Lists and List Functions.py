@@ -69,6 +69,30 @@ print(list_of_items)
 list_of_items.extend(range(1001,2001))
 print(list_of_items)
 
+#why use a list
+#this makes our job easier
+#this makes manageing our code easier
+#when we need to manage mutilple items
+#performance task answer
 
+#sets and tuples
+#sets and tuples are also part of the collection
+#family in python
+#sets examples:
+set1 = {1,2,3,4,5}
+set2 = {"apple","bannana","cherry"}
+print(set1)
+print(set2)
+print(type(set1))
+set_with_duplicates = {1,1,2,2,3,3,4,4,5}
+print(set_with_duplicates)
+print(3 in set1)
+print(6 in set1)
+tuple1 = (1,2,3,4,5)
+tuple2 = ("apple", "banana", "cherry")
+print(tuple1)
+print(tuple2)
+print(type(tuple1))
+socail_secruity_number = (12344, 444445, 5676789)
 
 
